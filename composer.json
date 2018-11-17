@@ -1,0 +1,16 @@
+{
+    "name": "xy2z/fileblog",
+    "description": "Load files from a directory into an array of objects.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xy2z",
+            "email": "xy2z@pm.me"
+        }
+    ],
+    "require": {
+        "symfony/yaml": "^4.1"
+    }
+
+}
