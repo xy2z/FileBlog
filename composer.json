@@ -1,6 +1,7 @@
 {
     "name": "xy2z/fileblog",
     "description": "Load files from a directory into an array of objects.",
+    "keywords": ["blog", "static", "posts"],
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -10,7 +11,13 @@
         }
     ],
     "require": {
+        "php": ">=7.1",
         "symfony/yaml": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "xy2z\\FileBlog\\": "src/"
+        }
     }
 
 }
