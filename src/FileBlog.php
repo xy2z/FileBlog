@@ -3,6 +3,7 @@
 namespace xy2z\FileBlog;
 
 use Symfony\Component\Yaml\Yaml;
+use Exception;
 
 /**
  * FileBlog
